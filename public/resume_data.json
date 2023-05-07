@@ -1,0 +1,231 @@
+{
+    "basic_info": {
+      "description_header": "Hi, I'm Hunter",
+      "description": "I'm a software development engineer with experience in Full Stack Software and DevOps, but interested in many things Computer Science including Artificial Intelligence, Bioinformatics, and Security. I have a Masters in Computer Science, and I am a United States Navy Veteran, where my experience has given me skills in leadership, teamwork, and communication. I am a lifelong learner, and I am always looking for new opportunities to learn and grow.",
+      "description2": "I enjoy a wide variety of activities when I'm not playing around with software, including spending time with my kids, hiking, kayaking, video games, woodworking, 3D printing, and reading books. I also have a deep love of all things tabletop games, from board games to RPGs like Dungeons and Dragons, Pathfinder, and Cyberpunk.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience / Education "
+                                 }
+    },
+    "projects": [
+      {
+        "title": "LFG Notification Application",
+        "startDate": "2020",
+        "description": "A web application that allows users to link their reddit accounts and subscribe to notifications to improve user experience when finding tabletop role-playing games on the LFG subreddit. The application is built using the Vue.js for the web application and python for the backend that handles messaging and parsing complex and unformatted user input.",
+        "image": "images/lfg.jpg",
+        "urls": [
+            {
+              "name": "GitHub",
+              "link": "https://github.com/hunter-read/lfg-notify-bot"
+            }
+          ],
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-vuejs-plain",
+            "name": "Vue.js"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          }
+        ]
+      },
+      {
+        "title": "PETRA",
+        "startDate": "2019",
+        "description": "A computational pipeline that when provided a protein-ligand resolved PDB structure file, generates all possible ligand variants in software, and analyzes all of the protein-ligand complexes using a combinatorial rigidity analysis approach.",
+        "image": "images/petra.png",
+        "urls": [
+          {
+            "name": "BCB`19",
+            "link": "https://dl.acm.org/doi/abs/10.1145/3307339.3343862"
+          },
+          {
+            "name": "PubMed",
+            "link": "https://www.ncbi.nlm.nih.gov/pubmed/32178472"
+          }
+        ],
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          }
+        ]
+      },
+      {
+        "title": "cMutant",
+        "startDate": "2017",
+        "description": "Web application and server for concurrent protein mutations. Developed at Western Washington University as research to improve upon previously developed tools for in-silico protein mutations. I developed the pipeline that enabled KINARI and SCWRL to run concurrently in the back-end and administered the database used to support cMutant.",
+        "image": "images/cmutant.png",
+        "urls": [
+          {
+            "name": "BiCOB`18",
+            "link": "https://facultyweb.cs.wwu.edu/~jagodzf/pubs/2018_BICOB_cMutant.pdf"
+          }
+        ],
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-redis-plain",
+            "name": "Redis"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Amazon",
+        "title": "Software Development Engineer",
+        "years": "04.2022 - present",
+        "mainTech": [
+
+        ],
+        "class": "fab fa-amazon",
+        "technologies": [
+          "Java",
+          "React",
+          "Javascript",
+          "Python",
+          "Cloudformation",
+          "Cloudfront",
+          "DynamoDB",
+          "IAM",
+          "Lambda",
+          "RDS",
+          "Route 53",
+          "EC2",
+          "S3",
+          "SNS",
+          "SQS",
+          "HTML",
+          "CSS"
+        ],
+        "descriptions": [
+          "Lead development of new customer authentication and authorization mechanisms using cloud infrastructure while working with multiple external teams.",
+          "Consistently provided support on both development and operations related to upkeep of multiple development stacks across AWS and other services."
+        ]
+      },
+      {
+        "company": "Dealer Information Systems",
+        "title": "Full-Stack Software Developer",
+        "years": "06.2017 - 03.2022",
+        "mainTech": [
+        
+        ],
+        "class": "fas fa-tractor",
+        "technologies": [
+          "Angular",
+          "Vue.js",
+          "Javascript",
+          "Typescript",
+          "Spring Boot",
+          "Java",
+          "Kafka",
+          "Docker",
+          "PostgreSQL",
+          "HTML",
+          "CSS",
+          "S3",
+          "EC2"
+        ],
+        "descriptions": [
+          "Developed for a full stack environment with a small team in an agile environment to develop and maintain a new web application used by over 100 dealerships.",
+          "Built upon pre-exsisting web application to provide improved user tools and add new features, and integrated with multiple third party tools, such as zapier, mailjet, and twillio to provide additional methods for customer interaction."
+        ]
+      },
+      {
+        "company": "Western Washington University",
+        "title": "M.S. in Computer Science",
+        "years": "01.2018 - 12.2019",
+        "mainTech": [
+        
+        ],
+        "class": "fas fa-diploma",
+        "technologies": [
+          "Python",
+          "C++",
+          "LaTeX",
+          "Tensorflow",
+          "Scikit-learn",
+          "Docker",
+          "Javascript",
+          "D3",
+          "Java",
+          "Prolog"
+        ],
+        "descriptions": [
+          "Emphasis in Bioinformatics, Machine learning, Algorithms, and Data Structures.",
+          "Thesis: PETRA: Protein-ligand complex engineering through rigidity analysis."
+        ]
+      },
+      {
+        "company": "Western Washington University",
+        "title": "Bachelor's in Computer Science",
+        "years": "01.2015 - 12.2017",
+        "mainTech": [
+        
+        ],
+        "class": "fas fa-school",
+        "technologies": [
+          "Python",
+          "C++",
+          "C",
+          "Racket",
+          "LaTeX",
+          "Tensorflow",
+          "Scikit-learn",
+          "Javascript",
+          "Vue.js",
+          "D3",
+          "Java",
+          "MySQL"
+        ],
+        "descriptions": [
+          "Selected Coursework: Machine Learning, Deep Learning, Artificial Intelligence, Databases, Mobile Development, Concurrency, Object Oriented Design, Algoritms, Networks.",
+          "As a capstone project, developed cMutant, a website and dedicated server for concurrent protein mutation."
+        ]
+      },
+      {
+        "company": "US Navy / US Navy Reserve",
+        "title": "Aviation Structural Mechanic 2nd Class",
+        "years": "11.2010 - 11.2014 / 01.2015 - 01.2017",
+        "mainTech": [
+        
+        ],
+        "class": "fas fa-fighter-jet",
+        "technologies": [
+          "Leadership",
+          "Communication",
+          "Teamwork",
+          "Percussive Maintenance"
+        ],
+        "descriptions": [
+          "Supervised and lead a small team in a hazadous work environment with no mishaps and a high mission completion rate.",
+          "Helped maintain multi-million dollar aircraft and ensure the safety of aircrew in over 200 flights on the EA-6B Prowler aircraft and the EA-18G Growler aircraft.",
+          "Received multiple awards and medals for professionalism and superior achievement of duties through consistent skilled leadership and teamwork."
+        ]
+      }
+    ]
+  }

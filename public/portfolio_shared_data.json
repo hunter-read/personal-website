@@ -1,0 +1,97 @@
+{
+    "basic_info": {
+      "name": "Hunter Read",
+      "titles": [ "Full Stack Developer", "DevOps Engineer", "Dev Team lead", "Enthusiastic Game Master" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/hunter-read",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/hunter-read-ca",
+          "class": "fab fa-linkedin"
+        },
+        {
+          "name": "email",
+          "url": "mailto:hunter@readpnw.dev",
+          "class": "fas fa-envelope"
+        },
+        {
+          "name": "resume",
+          "url": "https://readpnw.sfo3.digitaloceanspaces.com/hunter-read-resume.pdf",
+          "class": "fas fa-file-user"
+        }
+      ],
+      "image": "hunter.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "Java",
+          "class": "devicon-java-plain"
+        },
+        {
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain"
+        },
+        {
+          "name": "Vue.js",
+          "class": "devicon-vuejs-plain"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original"
+        },
+        {
+          "name": "Digital Ocean",
+          "class": "devicon-digitalocean-plain"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain"
+        },
+        {
+          "name": "Redis",
+          "class": "devicon-redis-plain"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "Nginx",
+          "class": "devicon-nginx-plain"
+        }
+      ]
+    }
+  }
