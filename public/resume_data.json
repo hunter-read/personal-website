@@ -15,7 +15,7 @@
         "title": "LFG Notification Application",
         "startDate": "2020",
         "description": "A web application that allows users to link their reddit accounts and subscribe to notifications to improve user experience when finding tabletop role-playing games on the LFG subreddit. The application is built using the Vue.js for the web application and python for the backend that handles messaging and parsing complex and unformatted user input.",
-        "image": "images/lfg.jpg",
+        "image": "images/lfg.jpeg",
         "urls": [
             {
               "name": "GitHub",

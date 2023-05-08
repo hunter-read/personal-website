@@ -15,18 +15,18 @@ class Projects extends Component {
                 <div className="project-content">
                   <img
                     src={projects.image}
-                    alt="project"
+                    alt={projects.title}
                     height="230"
                     width="230"
                     className="mx-auto"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative', "max-width": "230px"}}
+                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative', maxWidth: "230px"}}
                   />
                   <span className="project-date">{projects.startDate}</span>
                   <br />
-                  <p className="project-title-settings mt-3 mb-1">
+                  <h1 className="project-title-settings mt-3 mb-1">
                     {projects.title}
-                  </p>
-                  <h3 style={{ padding: "5px 5px 0 5px" }}>
+                  </h1>
+                  <h2 style={{ padding: "5px 5px 0 5px", fontSize: "15px" }}>
                     {projects.urls.map(function (url, i) {
                       return (
                       <a
@@ -39,18 +39,18 @@ class Projects extends Component {
                       >
                         {url.name}                   <i
                     className="fas fa-external-link-alt"
-                    style={{ marginRight: "10px", "font-size": "75%" }}
+                    style={{ marginRight: "10px", fontSize: "75%" }}
                   ></i>
                       </a>
                     )})}
-                  </h3>
+                  </h2>
                   <p className="modal-description">{projects.description}</p>
                   <ul className="list-inline mx-auto">
                     {projects.technologies.map(function (tech, i) {
                       return (
                        <li className="list-inline-item mx-0" key={i}>
                         <span>
-                          <div className="text-center" style={{ "box-shadow": "none"}}>
+                          <div className="text-center" style={{ boxShadow: "none"}}>
                             <i className={tech.class} style={{ fontSize: "300%" }}>
                               <p className="text-center" style={{ fontSize: "30%" }}>
                                 {tech.name}

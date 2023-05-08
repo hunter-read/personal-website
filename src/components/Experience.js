@@ -59,7 +59,7 @@ class Experience extends Component {
             
             {work.descriptions.map(function (descriptions, i) {
               return (
-                <p key={i} style={{ textAlign: "left", "font-size": "1.1rem" }}>
+                <p key={i} style={{ textAlign: "left", fontSize: "1.1rem" }}>
                   {descriptions}
                 </p>
               );

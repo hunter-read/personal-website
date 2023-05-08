@@ -6,22 +6,26 @@
         {
           "name": "github",
           "url": "https://github.com/hunter-read",
-          "class": "fab fa-github"
+          "class": "fab fa-github",
+          "description": "My GitHub profile"
         },
         {
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/hunter-read-ca/",
-          "class": "fab fa-linkedin"
+          "class": "fab fa-linkedin",
+          "description": "My LinkedIn profile"
         },
         {
           "name": "email",
           "url": "mailto:hunter@readpnw.dev",
-          "class": "fas fa-envelope"
+          "class": "fas fa-envelope",
+          "description": "Email me"
         },
         {
           "name": "resume",
           "url": "https://readpnw.sfo3.digitaloceanspaces.com/hunter-read-resume.pdf",
-          "class": "fas fa-file-user"
+          "class": "fas fa-file-user",
+          "description": "My resume"
         }
       ],
       "image": "hunter.jpg"

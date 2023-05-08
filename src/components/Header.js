@@ -55,6 +55,7 @@ class Header extends Component {
                 className="react-switch mx-auto"
                 width={90}
                 height={40}
+                aria-label="Light and Dark mode switcher"
                 uncheckedIcon={
                   <span
                     className="iconify"
